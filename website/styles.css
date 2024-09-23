@@ -1,0 +1,121 @@
+/* Grundlegende Reset-Regeln */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Gesamtstruktur */
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+}
+
+/* Header */
+.Video {
+    color: white;
+   
+   }
+/* Navigation */
+.navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    grid-gap: 20px;
+    height: 50px;
+    
+    
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    
+    height: 30px;
+    font-size: 25px;
+}
+
+/* Hauptbereich mit Grid */
+.main-content {
+    
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
+
+   
+   
+}
+
+/* Video-Bereich */
+.video-section {
+    padding-left: 15px;
+    margin-left: 15px;
+    border-radius: 5px;
+    padding-right: 15px;
+    padding-bottom: 60px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    width: 500px;
+}
+
+.vid{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Artikel-Bereich */
+.article-section {
+box-shadow:10px 10px 20px rgb(110, 108, 108);
+height: 200px;
+    padding-left: 10px;
+
+   margin-left: 15px;
+   margin-bottom: 15px;
+    border-radius: 7px;
+    background-color: #fcf9f9;
+    width: 30%;
+}
+
+.feedback-selection{
+
+}
+
+.info{
+    width: 500px;
+    height: 50px;
+}
+
+.info2{
+    width: 400px;
+    height: 25px;
+}
+
+.schrift{
+    font-size: 20px;
+}
+
+.knopf{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f0f0f0;
+    width: 15%;
+    height: 10%;
+    margin-left: 42%;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    background-color:#141414;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    
